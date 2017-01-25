@@ -1,0 +1,47 @@
+[
+ {
+   "stuId": "S1001",
+   "classNumber": "ART103A",
+   "grade": "A"
+ },
+ {
+   "stuId": "S1001",
+   "classNumber": "HST205A",
+   "grade": "C"
+ },
+ {
+   "stuId": "S1002",
+   "classNumber": "ART103A",
+   "grade": "D"
+ },
+ {
+   "stuId": "S1002",
+   "classNumber": "CSC201A",
+   "grade": "F"
+ },
+ {
+   "stuId": "S1002",
+   "classNumber": "MTH103C",
+   "grade": "B"
+ },
+ {
+   "stuId": "S1010",
+   "classNumber": "ART103A",
+   "grade": ""
+ },
+ {
+   "stuId": "S1010",
+   "classNumber": "MTH103C",
+   "grade": ""
+ },
+ {
+   "stuId": "S1020",
+   "classNumber": "CSC201A",
+   "grade": "B"
+ },
+ {
+   "stuId": "S1020",
+   "classNumber": "MTH101B",
+   "grade": "A"
+ }
+]

@@ -1,0 +1,51 @@
+[
+ {
+   "stuId": "S1001",
+   "lastName": "Smith",
+   "firstName": "Tom",
+   "major": "History",
+   "credits": "90"
+ },
+ {
+   "stuId": "S1002",
+   "lastName": "Chin",
+   "firstName": "Ann",
+   "major": "Math",
+   "credits": "36"
+ },
+ {
+   "stuId": "S1005",
+   "lastName": "Lee",
+   "firstName": "Perry",
+   "major": "History",
+   "credits": "3"
+ },
+ {
+   "stuId": "S1010",
+   "lastName": "Burns",
+   "firstName": "Edward",
+   "major": "Art",
+   "credits": "63"
+ },
+ {
+   "stuId": "S1013",
+   "lastName": "McCarthy",
+   "firstName": "Owen",
+   "major": "Math",
+   "credits": "0"
+ },
+ {
+   "stuId": "S1015",
+   "lastName": "Jones",
+   "firstName": "Mary",
+   "major": "Math",
+   "credits": "42"
+ },
+ {
+   "stuId": "S1020",
+   "lastName": "Rivera",
+   "firstName": "Jane",
+   "major": "CSC",
+   "credits": "15"
+ }
+]

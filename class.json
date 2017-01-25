@@ -1,0 +1,38 @@
+[
+ {
+   "classNumber": "ART103A",
+   "facId": "F101",
+   "schedule": "MWF9",
+   "room": "H221"
+ },
+ {
+   "classNumber": "CSC201A",
+   "facId": "F105",
+   "schedule": "TuThF10",
+   "room": "M110"
+ },
+ {
+   "classNumber": "CSC203A",
+   "facId": "F105",
+   "schedule": "MThF12",
+   "room": "M110"
+ },
+ {
+   "classNumber": "HST205A",
+   "facId": "F115",
+   "schedule": "MWF11",
+   "room": "H221"
+ },
+ {
+   "classNumber": "MTH101B",
+   "facId": "F110",
+   "schedule": "MTuTh9",
+   "room": "H225"
+ },
+ {
+   "classNumber": "MTH103C",
+   "facId": "F110",
+   "schedule": "MWF11",
+   "room": "H225"
+ }
+]

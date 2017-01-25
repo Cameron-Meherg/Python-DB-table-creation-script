@@ -1,0 +1,32 @@
+[
+ {
+   "facId": "F101",
+   "name": "Adams",
+   "department": "Art",
+   "rank": "Professor"
+ },
+ {
+   "facId": "F105",
+   "name": "Tanaka",
+   "department": "CSC",
+   "rank": "Instructor"
+ },
+ {
+   "facId": "F110",
+   "name": "Byrne",
+   "department": "Math",
+   "rank": "Assistant"
+ },
+ {
+   "facId": "F115",
+   "name": "Smith",
+   "department": "History",
+   "rank": "Associate"
+ },
+ {
+   "facId": "F221",
+   "name": "Smith",
+   "department": "CSC",
+   "rank": "Professor"
+ }
+]
