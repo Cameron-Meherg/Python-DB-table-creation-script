@@ -9,16 +9,15 @@ Class = "CREATE TABLE IF NOT EXISTS Class(classNumber varchar(15),facId varchar(
 Enroll = "CREATE TABLE IF NOT EXISTS Enroll(stuId varchar(15),classNumber varchar(15),grade varchar(5),PRIMARY KEY(stuId,classNumber));"
 
 tables = [Student,Faculty,Class,Enroll]
-litConn = sqlite3.connect('IT350.sqlite')
+litConn = sqlite3.connect('university.sqlite')
 litCursor = litConn.cursor()
 
-mysqlConn = MySQLdb.connect('localhost','testuser','test123','IT350')
+mysqlConn = MySQLdb.connect('localhost','testuser','test123','university')
 mysqlCurr = mysqlConn.cursor()
 
-postConn = psycopg2.connect("dbname='it350' user='postgres' host='localhost' password='test123'")
+postConn = psycopg2.connect("dbname='university' user='postgres' host='localhost' password='test123'")
 postCurr = postConn.cursor()
 for table in tables:
-	print table
 	#create the table on the sqlite
 	litCursor.execute(table)
 
