@@ -20,12 +20,13 @@ postCurr = postConn.cursor()
 for table in tables:
 	#create the table on the sqlite
 	litCursor.execute(table)
-
+	litConn.commit()
 	#create the table on mysqldb
 	mysqlCurr.execute(table)
 
 	#create the table on postgress
 	postCurr.execute(table)
+	postConn.commit()
 postConn.close()
 mysqlConn.close()
 litConn.close()

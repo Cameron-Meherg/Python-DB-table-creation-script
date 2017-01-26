@@ -36,21 +36,33 @@ for row in tables['faculty']:
 	tmp = facultyInsert.format(row['facId'],row['name'],row['department'],row['rank'])
 	print(tmp)
 	insertRow(tmp,litCursor,mysqlCurr,postCurr)
+	litConn.commit()
+	mysqlConn.commit()
+	postConn.commit()
 
 for row in tables['class']:
 	tmp = classInsert.format(row['classNumber'],row['facId'],row['schedule'],row['room'])
 	print(tmp)
 	insertRow(tmp,litCursor,mysqlCurr,postCurr)
+	litConn.commit()
+	mysqlConn.commit()
+	postConn.commit()
 
 for row in tables['enroll']:
 	tmp = enrollInsert.format(row['stuId'],row['classNumber'],row['grade'])
 	print(tmp)
 	insertRow(tmp,litCursor,mysqlCurr,postCurr)
+	litConn.commit()
+	mysqlConn.commit()
+	postConn.commit()
 
 for row in tables['student']:
 	tmp = studentInsert.format(row['stuId'],row['lastName'],row['firstName'],row['major'],row['credits'])
 	print(tmp)
 	insertRow(tmp,litCursor,mysqlCurr,postCurr)
+	litConn.commit()
+	mysqlConn.commit()
+	postConn.commit()
 
 postConn.close()
 mysqlConn.close()
